@@ -1,0 +1,422 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+@media only screen and (max-width: 600px) {
+    /* Styles for small screens (e.g., phones) */
+}
+@media only screen and (min-width: 601px) and (max-width: 1024px) {
+    /* Styles for medium screens (e.g., tablets) */
+}
+/* Add more media queries as needed */
+body{
+    background-image: url(image1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#bodyspace{
+    background:white;
+    box-shadow: 02px 02px 02px 02px black;
+    width: 86%;
+    height: 500px;
+    margin-left: 130px;
+    margin-top: 96px;
+    background-image: url(background1.jpg);
+}
+header{
+     background:white;
+    box-shadow: 02px 02px 02px 02px black;
+     width:100%;
+     height: 60px;
+      background: linear-gradient(to bottom, #003366, #0077cc);
+    transition: background-position 2s ease;
+
+}
+#carrer{
+    width: 150px;
+    height: 43px;
+    
+    font-family: roboto;
+    margin-left: 80%;
+    height: 60px;
+    color: white;
+    font-family: roboto;
+    border-radius: 32px;
+    margin-top: 132px;
+    }
+#carrer-btn:hover{
+    background:black;
+    color:white;
+    border-bottom-right-radius: 43px;
+    transition-duration: 0.3s;
+    margin-right: -45px;
+}
+#qrcode{
+    background:white;
+    box-shadow: 02px 02px 04px 04px blue;
+    width:340px;
+    height:395px;
+    margin-left: 143px;
+    margin-top: -460px;
+
+}
+#qrcode:hover{
+    background-image: url(social.jpg);
+    background-size: cover;
+   transition-duration: 03s;
+    color: white;
+    border-radius: 32px;
+     animation: glowing 1.5s infinite;
+
+}
+p{
+    font-family: roboto;
+    text-align: center;
+
+}
+
+#qr-btn{
+    width: 140px;
+    height: 32px;
+    border-radius: 43px;
+    background:blue;
+    color: white;
+    font-family: roboto;
+    margin-left:78px;
+    margin-top: 167px;
+}
+#qr-btn:hover{
+         transition-duration: 01s;
+         background:black;
+         color: white;
+         box-shadow: 02px 02px 02px 02px blue;
+          animation: glowing 1.5s infinite;
+}
+#samples{
+     background:white;
+    box-shadow: 02px 02px 04px 04px blue;
+    width:340px;
+    height:395px;
+    margin-left: 510px;
+    margin-top: -395px;
+}
+#samples:hover{
+   background-image: url(art.jpg);
+   border-radius: 32px;
+   transition-duration: 03s;
+   color: white;
+    animation: glowing 1.5s infinite;
+}
+#s-btn{
+     width: 140px;
+    height: 32px;
+    border-radius: 43px;
+    background:blue;
+    color: white;
+    font-family: roboto;
+    margin-left:24px;
+    margin-top: 240px;
+}
+#s-btn:hover{
+   transition-duration: 01s;
+         background:black;
+         color: white;
+         box-shadow: 02px 02px 02px 02px blue;
+          animation: glowing 1.5s infinite;
+}
+#cv{
+      background:white;
+    box-shadow: 02px 02px 04px 04px blue;
+    width:340px;
+    height:395px;
+    margin-left: 890px;
+    margin-top: -395px;
+}
+#cv:hover{
+      background-image: url(2.jpg);
+   border-radius: 32px;
+   transition-duration: 03s;
+   color: white;
+    animation: glowing 1.5s infinite;
+}
+#cv-btn{
+     width: 140px;
+    height: 32px;
+    border-radius: 43px;
+    background:blue;
+    color: white;
+    font-family: roboto;
+    margin-left:120px;
+    margin-top: 280px;
+}
+#cv-btn:hover{
+    transition-duration: 01s;
+         background:black;
+         color: white;
+         box-shadow: 02px 02px 02px 02px blue;
+          animation: glowing 1.5s infinite;
+}
+ion-icon{
+    color: black;
+    width: 45px;
+    height: 45px;
+    margin-left: 120px;
+     animation: glowing 1.5s infinite;
+}
+ion-icon:hover{
+    color: white;
+     animation: glowing 1.5s infinite;
+}
+@keyframes glowing {
+        0% {
+            box-shadow: 0 1 01px #00f, 0 0 02px #00f, 0 0 04px #00f, 0 0 04px #00f, 0 0 04px #00f, 0 0 11px #00f, 0 0 10px #00f, 0 0 09px #00f;
+        }
+        50% {
+            box-shadow: 0 0 01px #00f, 0 0 02px #00f, 0 0 04px #00f, 0 0 04px #00f, 0 0 04px #00f, 0 0 11px #00f, 0 0 10px #00f, 0 0 09px #00f;
+        }
+        10% {
+            box-shadow: 0 0 01px #00f, 0 0 02px #00f, 0 0 04px #00f, 0 0 04px #00f, 0 0 04px #00f, 0 0 11px #00f, 0 0 10px #00f, 0 0 09px #00f;
+        }
+    }
+#cv-image{
+           width: 412px;
+           height: 584.02px;
+       
+        border: 5px solid black;
+        border-radius: 04px;
+        animation: glowing 1.5s infinite;
+          background-image: url(cv-ashraf.jpg);
+          margin-left: 460px;
+          margin-top: 35px;
+
+}
+#h{
+    width: 450px;
+    height: 34px;
+    color: white;
+    font-family: roboto;
+    text-align: center;
+    animation: glowing 1.5s infinite;
+    margin-left:355px;
+    border:solid 4px blue;
+
+}
+#qr-box{
+    background:white;
+    box-shadow: 02px 02px 02px 02px black;
+    width: 89%;
+    height: 530px;
+    margin-left: 56px;
+    margin-top: 91px;
+    background-image: url(background1.jpgs);
+    border:solid 5px blue;
+    animation: glowing 5s infinite;
+    background-image: url(social_large.jpg);
+    background-size: cover;
+    position: absolute;
+}
+#ig{
+    width:200px;
+    height:200px;
+    border:solid black;
+     animation: glowing 5s infinite;
+     background-image:url(ig.jpeg);
+     background-size: cover;
+}
+#fb{
+    width:200px;
+    height:200px;
+    border:solid black;
+    margin-top: 21px;
+     animation: glowing 5s infinite;
+     background-image: url(fb.jpeg);
+    background-size: cover;
+}
+#gm{
+    width:200px;
+    height:200px;
+    border:solid black;
+    margin-top: 21px;
+    margin-left: 321px;
+    margin-top: -437px;
+    background-image: url(gm.jpeg);
+    background-size: cover;
+     animation: glowing 5s infinite;
+}
+#wh{
+    width:200px;
+    height:200px;
+    border:solid black;
+    margin-top: 21px;
+    margin-left: 321px;
+    margin-top:-206px;
+     animation: glowing 5s infinite;
+     background-image: url(wh.jpeg);
+     background-size: cover;
+}
+#social{
+    margin-left: 214px;
+    margin-top: 25px;
+
+}
+#yt{
+      width: 210px;
+      height: 210px;
+      border:solid 3px black;
+      margin-left:670px;
+      margin-top: -90px;
+       animation: glowing 5s infinite;
+       background-image: url(yt.jpeg);
+       background-size: cover;
+}
+.slider-container {
+  position: relative;
+  max-width: 800px;
+  margin: auto;
+  text-align: center; /* Center align the images */
+
+}
+
+.slides {
+  display: flex;
+  overflow-x: hidden;
+}
+
+.slide {
+  width:100%;
+  margin-top: 32px;
+  display: none;
+  transition: opacity 2s; /* Add transition duration for opacity */
+  box-shadow: 03px 03px 04px 04px blue;
+    animation: glowing 5s infinite;
+    border:solid 7px blue;
+    transition-duration: 02s;
+
+}
+.slide:hover{
+    transition-duration: 03s;
+
+}
+
+.prev, .next {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background:blue;
+  color: white;
+  padding: 10px;
+  border: none;
+  cursor: pointer;
+  width: 89px;
+
+}
+.prev, .next:hover{
+
+}
+
+.prev {
+  left: 0;
+
+}
+.prev:hover{
+  animation: glowing 1.5s infinite;
+  background:black;
+  color: white;
+  transition-duration:01s;
+}
+
+.next {
+  right: 0;
+}
+.next:hover{
+  animation: glowing 1.5s infinite;
+  background:black;
+  color: white;
+  transition-duration:01s;
+}
+#imgsize{
+    width: 10px;
+    height: 10px;
+}
+#typewriter {
+    font-family: roboto;
+    color: white;
+    text-align: center;
+    font-size: 32px;
+    overflow: hidden; /* Ensures the content is not revealed until the animation */
+    border-right: .15em solid orange; /* The typewriter cursor */
+    margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+    letter-spacing: .15em; /* Adjust as needed */
+    animation: typing 3.5s steps(40, end), blink-caret .75s step-end infinite;
+    margin-top: 32px;
+  }
+  /* The typing effect */
+  @keyframes typing {
+    from {
+      width: 0;
+    }
+    to {
+      width: 100%;
+    }
+  }
+  /* The typewriter cursor effect */
+  @keyframes blink-caret {
+    from,
+    to {
+      border-color: transparent;
+    }
+    50% {
+      border-color: orange;
+    }
+  }
+  #username{
+    width: 350px;
+    height: 21px;
+    margin-left:450px;
+    margin-top: 195px;
+    text-align: center;
+    font-family: roboto mono;
+    font-size:21px;
+  }
+   #username:hover{
+    width: 350px;
+    height: 21px;
+    margin-left:450px;
+    margin-top: 195px;
+    text-align: center;
+    font-family: roboto mono;
+    animation: glowing 1.5s infinite;
+     transition-duration: 0.2s;
+     border-radius: 32px;
+}
+  #t-btn{
+    width: 190px;
+    height: 25px;
+    margin-left: 520px;
+    margin-top: 21px;
+  }
+  #t-btn:hover{
+    width: 190px;
+    height: 25px;
+    margin-left: 520px;
+    margin-top: 21px;
+    border-radius: 32px;
+    background:blue;
+    box-shadow: 02px 02px 02px 02px 02px blue;
+     animation: glowing 1.5s infinite;
+     transition-duration: 0.2s;
+     color: white;
+  }
+
+   #upload {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: 2px dashed #ccc;
+    margin: 20px auto;
+    font-size: 20px;
+    cursor: pointer;
+  }
